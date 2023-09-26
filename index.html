@@ -12,11 +12,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/logos/perro.svg">
 
-  <!-- Estilos CSS Files -->
-  <link rel="stylesheet" href="./aos/aos.css">
-
   <!-- Estilos CSS -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,7 +42,7 @@
   <header class="header">
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
       <div class="container-fluid">
-        <img src="./img/logos/Encydogpedia.svg" width="300" height="100">
+        <img src="./img/logos/Encydogpedia.svg" width="100" height="90" alt="logotipo de huella">
         <a class="navbar-brand" href="#">Encydogpedia</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -75,15 +71,15 @@
   <main>
     <!--Imágenes en movimiento-->
   <section class="inicio">
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="uno" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="dos" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="tres" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/salukies.webp" class="d-block w-100 c-img" alt="0">
+          <img src="./img/saluki.webp" class="d-block w-100" alt="uno">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Saluki</h1>
@@ -93,7 +89,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/dalmatian.webp" class="d-block w-100 c-img" alt="1">
+          <img src="./img/dalmata.webp" class="d-block w-100" alt="dos">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Dálmata</h1>
@@ -103,7 +99,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/corgi.webp" class="d-block w-100 c-img" alt="2">
+          <img src="./img/corgi.webp" class="d-block w-100" alt="tres">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Corgi</h1>
@@ -120,21 +116,21 @@
     <div class="container marketing">
       <div class="row">
         <div class="col-lg-4">
-          <img src="./img/yorkie.webp" class="rounded-circle" width="140" height="140">
+          <img src="./img/yorkie.webp" class="round" alt="Perro yorkie">
           <h2 class="fw-normal">Yorkshire Terrier</h2>
           <p>El aspecto pequeño y entrañable del Yorkie choca con su enérgica personalidad. Es un perro sin complejos.</p>
           <p><a class="btn btn-secondary" href="#">Más detalles&raquo;</a></p>
       </div>
       <!--2° foto circular-->
       <div class="col-lg-4">
-        <img src="./img/shihtzu.webp" class="rounded-circle" width="140" height="140">
+        <img src="./img/shih-tzu.webp" class="round" alt="Perro shih tzu con pantalla de computadora">
           <h2 class="fw-normal">Shih Tzu</h2>
           <p>Su pelo debe ser tratado diariamente para evitar que se enrede y para evitar infecciones en los ojos.</p>
           <p><a class="btn btn-secondary" href="#">Más detalles&raquo;</a></p>
         </div>
         <!--3° foto circular-->
         <div class="col-lg-4">
-          <img src="./img/sanbernardo.webp" class="rounded-circle" width="140" height="140">
+          <img src="./img/sanbernardo.webp" class="round" alt="San bernardo cachorro">
           <h2 class="fw-normal">San Bernardo</h2>
           <p>son perros adecuados para climas fríos y por eso debemos ir con cuidado.</p>
           <p><a class="btn btn-secondary" href="#">Más detalles&raquo;</a></p>
@@ -152,7 +148,7 @@
             Su diminuto tamaño permitió a sus dueños llevarlos en brazos y salvarlos durante aquel fatídico episodio.</p>
         </div>
         <div class="col-md-5">
-          <img src="./img/pomerania.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+          <img src="./img/pomerania.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Pomerania sonriendo">
         </div>
       </div>
       <!--2° foto con descripción-->
@@ -170,7 +166,7 @@
       </div>
       <!--3° foto con descripción-->
       <div class="col-md-5 order-md-1">
-        <img src="./img/schnauzer.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+        <img src="./img/schnauzer.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%" height="100%" alt="Schnauzer cachorro sonriendo">
       </div>
     </div>
     <hr class="featurette-divider">
@@ -186,7 +182,7 @@
         </p>
       </div>
       <div class="col-md-5">
-        <img src="./img/pastoraleman.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+        <img src="./img/pastoraleman.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%" height="100%" alt="Pastor alemán bonito">
       </div>
     </div>
     <hr class="featurette-divider">
