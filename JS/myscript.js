@@ -1,7 +1,7 @@
 var nav=document.querySelector('nav');
     window.addEventListener('scroll', function(){
        if(window.pageYOffset > 50){
-        nav.style.backgroundColor = 'rgba(255, 0, 0, 0.8)';
+        nav.style.backgroundColor = 'rgba(1)';
         nav.classList.add('shadow');
        }else{
         nav.style.backgroundColor = 'transparent';

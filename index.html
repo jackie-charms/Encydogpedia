@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encydogpedia</title>
-    <meta name="description" content="Enciclopedia de perros">
-    <meta name="keywords" content="Enciclopedia perros">
-    <meta name="author" content="Encydogpedia">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encydogpedia</title>
+  <meta name="description" content="Enciclopedia de perros">
+  <meta name="keywords" content="Enciclopedia perros">
+  <meta name="author" content="Encydogpedia">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./aos/aos.css">
+  <link rel="stylesheet" href="./CSS/index.css">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/logos/perro.svg">
@@ -115,21 +117,21 @@
     <!--Fotos circulares-->
     <div class="container marketing">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="flip-left">
           <img src="./img/yorkie.webp" class="round" alt="Perro yorkie">
           <h2 class="fw-normal">Yorkshire Terrier</h2>
           <p>El aspecto pequeño y entrañable del Yorkie choca con su enérgica personalidad. Es un perro sin complejos.</p>
           <p><a class="btn btn-secondary" href="#">Más detalles&raquo;</a></p>
       </div>
       <!--2° foto circular-->
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="flip-left">
         <img src="./img/shih-tzu.webp" class="round" alt="Perro shih tzu con pantalla de computadora">
           <h2 class="fw-normal">Shih Tzu</h2>
           <p>Su pelo debe ser tratado diariamente para evitar que se enrede y para evitar infecciones en los ojos.</p>
           <p><a class="btn btn-secondary" href="#">Más detalles&raquo;</a></p>
         </div>
         <!--3° foto circular-->
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="flip-left">
           <img src="./img/sanbernardo.webp" class="round" alt="San bernardo cachorro">
           <h2 class="fw-normal">San Bernardo</h2>
           <p>son perros adecuados para climas fríos y por eso debemos ir con cuidado.</p>
@@ -141,7 +143,8 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading fw-normal lh-1">Pomerania</h2>
-          <p class="lead">Su origen se remonta al ártico, donde se utilizaban como perros de tiro en los trineos y como perros pastores, ya que se enfrentaban con astucia a los lobos.
+          <p class="lead" data-aos="zoom-in">
+            Su origen se remonta al ártico, donde se utilizaban como perros de tiro en los trineos y como perros pastores, ya que se enfrentaban con astucia a los lobos.
             La reina María Antonieta y Mozart tuvieron un Pomerania, ya que eran muy apreciados por su carisma y simpatía.
             Una de las características físicas del Pomerania que más llama la atención y que resulta característico de esta raza de perros es su cola, ya que la lleva siempre enroscada sobre la espalda.
             De los tres perros que se pudieron salvar del hundimiento del Titánic, dos de ellos eran de raza Pomerania.
@@ -156,7 +159,7 @@
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading fw-normal lh-1">Schnauzer</h2>
-          <p class="lead">
+          <p class="lead" data-aos="zoom-in">
             El nombre se origina de la palabra alemana “Schnauze”, que significa hocico.
             Haciendo una clara referencia a los hermosos bigotes que son la marca registrada de todos los Schnauzers.
             La palabra Schnauzer debe ser pronunciada “sh-now-tser” con la Z alemana, que suena como TS, por ejemplo, Mozart, que se dice “Motsart”.
@@ -173,7 +176,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1">Pastor Alemán</h2>
-        <p class="lead">
+        <p class="lead" data-aos="zoom-in">
           Sus orígenes como perro pastor remontan a los fines del siglo XIX, cuando el capitán de caballería Max Emil Frederick von Stephanitz se
           dedicaba a crear una raza para trabajos en el campo que también ostentara un aspecto noble. Gracias a su gran inteligencia y predisposición
           al entrenamiento, el pastor alemán se ha convertido en una de las más versátiles, desarrollando con excelencia un amplio abanico de tareas,
@@ -205,7 +208,7 @@
 </section>
 <script src="./aos/aos.js"></script>
 <script src="./JS/bootstrap.min.js"></script>
-<script src="./JS/myscript.js"></script>
+<script src="JS/myscript.js"></script>
 </main>
 </body>
 </html>
